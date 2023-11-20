@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startsida - Steeloak</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="about.html">Om mig</a></li>
+                <li><a href="imageediting.html">Bildbehandling</a></li>
+            </ul>
+        </nav>
+        <picture>
+            <source type="image/jpg" media="(min-width: 1521px)" srcset="images/stor_bild.jpg">
+            <source type="image/jpg" media="(min-width: 801px) and (max-width: 1520px)" srcset="images/mellan_bild.jpg">
+            <source type="image/jpg" media="(max-width: 800px)" srcset="images/liten_bild.jpg">
+            <img src="images/liten_bild.jpg" alt="">
+        </picture>
+    </header>
+
+    <main>
+        <section>
+            <h1>Om mig</h1>
+            <img src="images/portrait.png" alt="Porträtt på Jonas Ståleker">
+            <h2>Jonas Ståleker</h2>
+            <p>Skriv ditt namn i rubriken ovan.
+                Här skriver du en eller några paragrafer med en beskrivning av dig. Vem är du och vad är du intresserad
+                av? Har du arbetat något med bildhandling tidigare eller är det något helt nytt?
+            </p>
+            <h2>Om uppgiften</h2>
+            <p>Skriv en sammanfattning av uppgiften och dina slutsatser med egna reflektioner. Vad har du lärt dig av
+                att genomföra uppgiften, var det något du upplevde som svårt och gick allt så som du tänkt dig?</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Laborationsuppgift för kursen DT200G, Grafisk design för webb.</p>
+        <p>Copyright &copy; 2023 Jonas Ståleker</p>
+    </footer>
+</body>
+
+</html>

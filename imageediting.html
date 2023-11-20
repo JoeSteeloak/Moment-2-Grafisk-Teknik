@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startsida - Steeloak</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="about.html">Om mig</a></li>
+                <li><a href="imageediting.html">Bildbehandling</a></li>
+            </ul>
+        </nav>
+        <picture>
+            <source type="image/jpg" media="(min-width: 1521px)" srcset="images/stor_bild.jpg">
+            <source type="image/jpg" media="(min-width: 801px) and (max-width: 1520px)" srcset="images/mellan_bild.jpg">
+            <source type="image/jpg" media="(max-width: 800px)" srcset="images/liten_bild.jpg">
+            <img src="images/liten_bild.jpg" alt="">
+        </picture>
+    </header>
+
+    <main>
+        <section>
+            <h1>Bildbehandling</h1>
+            <h2>Färgstick</h2>
+            <picture>
+                <source srcset="images/fargstick_fore.webp" type="image/webp">
+                <img src="images/fargstick_fore.jpg" alt="ett foto med för mycket gult i">
+            </picture>
+            <picture>
+                <source srcset="images/fargstick.webp" type="image/webp">
+                <img src="images/fargstick.jpg" alt="ett foto med lagom mycket gult i">
+            </picture>
+            <h2>Handkolorering och retusch</h2>
+            <picture>
+                <source srcset="images/handkolorering_fore.webp" type="image/webp">
+                <img src="images/handkolorering_fore.jpg" alt="barn i häst och vagn i svartvitt">
+            </picture>
+            <picture>
+                <source srcset="images/handkolorering.webp" type="image/webp">
+                <img src="images/handkolorering.jpg" alt="barn i häst och vagn i färg">
+            </picture>
+        </section>
+    </main>
+
+    <footer>
+        <p>Laborationsuppgift för kursen DT200G, Grafisk design för webb.</p>
+        <p>Copyright &copy; 2023 Jonas Ståleker</p>
+    </footer>
+</body>
+
+</html>
