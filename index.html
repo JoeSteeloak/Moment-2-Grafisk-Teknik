@@ -4,13 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Startsida - Steeloak</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
 </head>
 
 <body>
+    <header>
+        <img src="images/logo.svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="about.html">Om mig</a></li>
+                <li><a href="imageediting.html">Bildbehandling</a></li>
+            </ul>
+        </nav>
+        <picture>
+            <source type="image/jpg" media="(min-width: 1521px)" srcset="images/stor_bild.jpg">
+            <source type="image/jpg" media="(min-width: 801px) and (max-width: 1520px)" srcset="images/mellan_bild.jpg">
+            <source type="image/jpg" media="(max-width: 800px)" srcset="images/liten_bild.jpg">
+            <img src="images/liten_bild.jpg" alt="">
+        </picture>
+    </header>
 
+    <main>
+        <section>
+            <h1>Senaste produkterna</h1>
+            <img src="images/frilaggning01.png" alt="blå mugg">
+            <img src="images/frilaggning02.png" alt="lila mugg">
+            <img src="images/frilaggning03.png" alt="grön mugg">
+        </section>
+        <section>
+            <h1>Webbutvecklingsprogrammet Mittuniversitet</h1>
+            <button class="applyBtn" type="button">Sök här</button>
+        </section>
+        <section><img src="images/reklam_banner.gif" alt="sidans logga, mugg som byter färg och ett litet barn på en kulle"></section>
+    </main>
+
+    <footer><p>Laborationsuppgift för kursen DT200G, Grafisk design för webb.</p><p>Copyright &copy; 2023 Jonas Ståleker</p></footer>
 </body>
 
 </html>
