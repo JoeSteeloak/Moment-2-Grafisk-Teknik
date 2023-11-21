@@ -102,7 +102,7 @@ nav {
     right: 0;
     top: 0;
     height: 100vh;
-    width: 250px;
+    width: 100%;
     display: none;
 }
 nav ul {
@@ -142,4 +142,11 @@ nav li:hover {
     transform: rotate(135deg);
     position: relative;
     top: -3px;
+}
+
+/* Meny knapp, stäng */
+.close {
+    margin: 1em 1.5em;
+    padding: 10px 15px;
+
 }
