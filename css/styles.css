@@ -19,6 +19,7 @@ h1 {
     font-weight: 700;
     color: #e75a7c;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 h2 {
@@ -50,9 +51,14 @@ footer {
     background-color: #BBC7A4;
 }
 
+p {
+    padding: 5%;
+    line-height: 1.5em;
+}
+
 #portrait {
     border-radius: 500px;
-    width: 50%;
+    width: 75%;
     max-width: 450px;
     display: block;
     margin: auto;
