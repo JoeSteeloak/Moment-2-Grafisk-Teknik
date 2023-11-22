@@ -75,7 +75,7 @@ footer {
 
 #miunAd > button {
     color: white;
-    background-color: #BBC7A4;
+    background-color:rgba(187, 199, 164, 0);
     padding: 2%;
     font-weight: 700;
     border: solid white;
@@ -83,6 +83,11 @@ footer {
     position: relative;
     left: 50%;
     top: 50%;
+}
+
+#miunAd > button:hover {
+    background-color: #BBC7A4;
+    cursor: pointer;
 }
 
 /* Meny knapp, öppna meny */
