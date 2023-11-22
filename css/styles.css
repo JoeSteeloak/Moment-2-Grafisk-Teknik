@@ -103,6 +103,10 @@ footer {
     cursor: pointer;
 }
 
+#header-pic {
+    padding: 0;
+}
+
 /* Meny knapp, öppna meny */
 .menu-btn {
     display: flex;
