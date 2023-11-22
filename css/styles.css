@@ -4,11 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 body {
     background-color: #F2F5EA;
     margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 h1 {
@@ -23,6 +26,11 @@ h2 {
     font-weight: 700;
     color: #e75a7c;
     text-align: center;
+}
+
+img {
+    max-width: 100%;
+    padding: 5%;
 }
 
 header {
@@ -42,6 +50,11 @@ footer {
 
 #portrait {
     border-radius: 500px;
+    width: 50%;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+
 }
 
 #logo {
@@ -63,7 +76,7 @@ footer {
     background-image: url("../images/background.jpg");
     background-blend-mode: screen;
     background-size: cover;
-    width: 100vh;
+    width: 100%;
 }
 
 #miunAd > h1 {
