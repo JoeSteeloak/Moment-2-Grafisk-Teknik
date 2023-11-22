@@ -8,6 +8,7 @@
 
 body {
     background-color: #F2F5EA;
+    margin: 0;
 }
 
 h1 {
@@ -58,8 +59,30 @@ footer {
 }
 
 #miunAd {
+    background-color: rgba(187, 199, 164, 1);
     background-image: url("../images/background.jpg");
+    background-blend-mode: screen;
     background-size: cover;
+    width: 100vh;
+}
+
+#miunAd > h1 {
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    position: relative;
+    
+}
+
+#miunAd > button {
+    color: white;
+    background-color: #BBC7A4;
+    padding: 2%;
+    font-weight: 700;
+    border: solid white;
+    box-shadow: 1px 1px 5px black;
+    position: relative;
+    left: 50%;
+    top: 50%;
 }
 
 /* Meny knapp, öppna meny */
@@ -118,6 +141,7 @@ nav li {
     padding: 0.8em 0;
     width: 100%;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 nav a {
@@ -151,4 +175,44 @@ nav li:hover {
     margin: 1em 1.5em;
     padding: 10px 15px;
 
+}
+
+/* Media querys */
+
+/* Större skärmas - gör menyn som inline */
+@media only screen and (min-width: 1521px) {
+    header {
+        padding: 0 3em;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    #open-menu {
+        display: none !important;
+    }
+
+    header {
+        position: static;
+    }
+
+    nav {
+        display: block !important;
+        position: static;
+        box-shadow: 0 0px 0px;
+        height: auto;
+        font-size: 1.4em;
+        width: auto;
+    }
+
+    nav ul {
+        height: 100%;
+    }
+
+    nav li {
+        display: inline;
+        padding: 1.2em 0;
+        text-transform: uppercase;
+    }
 }
