@@ -89,7 +89,7 @@ footer {
     background-blend-mode: screen;
     background-size: cover;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     z-index: 0;
 }
 
@@ -242,20 +242,22 @@ nav li:hover {
     #miunAd {
         height: 60vh;
     }
-}
 
-.edited-image {
-    width: 100%;
-    max-width: 500px;
-    padding-top: 1%;
-}
 
-h1 {
-    font-size: 42px;
-}
+    .edited-image {
+        width: 100%;
+        max-width: 500px;
+        padding-top: 1%;
+    }
 
-h2 {
-    font-size: 36px;
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
 }
 
 /* Större skärma - gör menyn som inline */
@@ -319,6 +321,7 @@ h2 {
         max-width: 500px;
         padding-top: 1%;
     }
+
     #edited-images {
         text-align: center;
     }
