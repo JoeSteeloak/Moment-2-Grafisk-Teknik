@@ -127,7 +127,7 @@ footer {
 #header-pic {
     padding: 0;
     width: 100%;
-    max-width: auto;
+    max-width: none;
 }
 
 /* Meny knapp, öppna meny */
