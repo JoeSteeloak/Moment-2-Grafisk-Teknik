@@ -38,12 +38,13 @@ img {
 
 header {
     margin: 0;
-    position: relative;
+    position: fixed;
     padding: 0 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
 }
 
 header,
@@ -122,6 +123,8 @@ footer {
 
 #header-pic {
     padding: 0;
+    width: 100%;
+    max-width: auto;
 }
 
 /* Meny knapp, öppna meny */
@@ -219,7 +222,7 @@ nav li:hover {
 
 /* Media querys */
 
-/* Större skärmas - gör menyn som inline */
+/* Större skärma - gör menyn som inline */
 @media only screen and (min-width: 1521px) {
     header {
         padding: 0 3em;
@@ -231,10 +234,6 @@ nav li:hover {
 
     #open-menu {
         display: none !important;
-    }
-
-    header {
-        position: static;
     }
 
     nav {
