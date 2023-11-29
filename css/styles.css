@@ -318,7 +318,7 @@ nav li:hover {
     .edited-image {
         display: inline;
         width: 100%;
-        max-width: 500px;
+        max-width: 1000px;
         padding-top: 1%;
     }
 
@@ -329,6 +329,9 @@ nav li:hover {
     #portrait {
         display: inline;
         float: left;
+        box-sizing: content-box;
+        width: 100%;
+        max-width: 450px;
     }
 
     h1 {
